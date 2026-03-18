@@ -17,12 +17,6 @@ cask "claude-code-tool-manager" do
 
   app "Claude Code Tool Manager.app"
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "/Applications/Claude Code Tool Manager.app"],
-                   sudo: false
-  end
-
   zap trash: [
     "~/Library/Application Support/com.claude-code-tool-manager.app",
     "~/Library/WebKit/com.claude-code-tool-manager.app",
