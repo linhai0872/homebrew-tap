@@ -3,12 +3,12 @@ cask "claude-code-tool-manager" do
 
   on_arm do
     url "https://github.com/linhai0872/claude-code-tool-manager/releases/download/v1.0.0/Claude.Code.Tool.Manager_1.0.0_aarch64.dmg"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "e144d1eb2ee63029947d797ed034d7ed744ad462636977f870c54437c225ae09"
   end
 
   on_intel do
     url "https://github.com/linhai0872/claude-code-tool-manager/releases/download/v1.0.0/Claude.Code.Tool.Manager_1.0.0_x64.dmg"
-    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    sha256 "941af7cbe47e05eb8e08f3236ca5405858f938edb13aa5df38f0120efc2ec2de"
   end
 
   name "Claude Code Tool Manager"
