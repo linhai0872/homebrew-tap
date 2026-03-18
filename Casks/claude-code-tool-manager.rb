@@ -1,22 +1,18 @@
-# 这是 Homebrew Cask 文件模板，供参考。
-# 实际文件放在 https://github.com/linhai0872/homebrew-tap 仓库的 Casks/ 目录下。
-# CI 每次发版时会自动更新版本号和 SHA256。
-
 cask "claude-code-tool-manager" do
-  version "3.4.1"
+  version "1.0.0"
 
   on_arm do
-    url "https://github.com/linhai0872/claude-code-tool-manager/releases/download/v#{version}/Claude.Code.Tool.Manager_#{version}_aarch64.dmg"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    url "https://github.com/linhai0872/claude-code-tool-manager/releases/download/v1.0.0/Claude.Code.Tool.Manager_1.0.0_aarch64.dmg"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   on_intel do
-    url "https://github.com/linhai0872/claude-code-tool-manager/releases/download/v#{version}/Claude.Code.Tool.Manager_#{version}_x64.dmg"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    url "https://github.com/linhai0872/claude-code-tool-manager/releases/download/v1.0.0/Claude.Code.Tool.Manager_1.0.0_x64.dmg"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   name "Claude Code Tool Manager"
-  desc "GUI for managing Claude Code MCP servers, skills, hooks, sub-agents, and more"
+  desc "GUI for managing Claude Code MCP servers, skills, hooks, and more"
   homepage "https://github.com/linhai0872/claude-code-tool-manager"
 
   app "Claude Code Tool Manager.app"
